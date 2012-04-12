@@ -1,0 +1,13 @@
+auth:
+  key     : 
+  secret  :
+  duration: 1800 # 30 minute validity period for signed upload forms
+
+templates:
+  image_resize:
+    steps:
+      resize:
+        robot : '/image/resize'
+        format: 'jpg'
+        width : 320
+        height: 200
